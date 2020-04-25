@@ -3,3 +3,4 @@ This is a fully functional ecommerce blueprint with editorial content weaved in.
 - Project Key
 - Client Id
 - Client Secret
+configure inside engine site config.
