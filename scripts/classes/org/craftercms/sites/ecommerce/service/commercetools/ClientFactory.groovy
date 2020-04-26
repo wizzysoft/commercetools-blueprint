@@ -54,6 +54,11 @@ class ClientFactory implements FactoryBean<SphereClient> {
       .apiUrl(apiUrl)
       .scopeStrings(scopes)
       .build()
+      println("Init , scopes---->" + scopes)
+
+     String result = scopes.join(",")
+     println("SCOPES "+result)
+
   }
 
   SphereClient getObject() {

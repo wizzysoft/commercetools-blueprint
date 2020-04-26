@@ -142,13 +142,13 @@ This file configures site properties used by Crafter Engine
       <!-- Indicates the provider to use: (only commercetools supported for now) -->
       <provider>commercetools</provider>
       <!-- Specific configurations for commercetools provider -->
-    <commercetools>
+     <commercetools>
          <projectKey>stkmeta</projectKey>
          <clientId>L4V6sKtPhGMV4OI7mU2_AVIG</clientId>
          <clientSecret>eksIY5S9g4t5-6GVpIlFrmHideQq8BRn</clientSecret>
          <authUrl>https://auth.us-central1.gcp.commercetools.com</authUrl>
          <apiUrl>https://api.us-central1.gcp.commercetools.com</apiUrl>
-         <scopes>manage_products:stkmeta manage_my_profile:stkmeta manage_shopping_lists:stkmeta manage_payments:stkmeta view_published_products:stkmeta create_anonymous_token:stkmeta manage_customers:stkmeta view_payments:stkmeta manage_orders:stkmeta manage_my_orders:stkmeta</scopes>
+         <scopes>manage_products,manage_my_profile,manage_shopping_lists,manage_payments,view_published_products,create_anonymous_token,manage_customers,view_payments,manage_orders,manage_my_orders</scopes>         
       </commercetools>
    </ecommerce>
    <!-- CORS Properties -->
